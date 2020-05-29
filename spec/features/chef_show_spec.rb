@@ -64,9 +64,6 @@ describe "As a visitor" do
       expect(page).to have_content(cavatappi.name)
       expect(page).to have_content(pork.name)
 
-      expect(page).to_not have_content(brisket.name)
-      expect(page).to_not have_content(nachos.name)
-
     end
   end
 end
