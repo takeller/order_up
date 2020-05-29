@@ -57,6 +57,7 @@ describe "As a visitor" do
       expect(page).to have_content(cheese.name)
       expect(page).to have_content(verde.name)
       expect(page).to have_content(chicken.name)
+
       click_on "Ingredient's List"
 
       expect(current_path).to eq("/chefs/#{chef1.id}/ingredients")

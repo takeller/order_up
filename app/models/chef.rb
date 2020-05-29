@@ -22,6 +22,6 @@ class Chef <ApplicationRecord
     ingredient_counts = grouped_ingredients.map { |k, v| [k, v.count] }.to_h
     sorted_ingredients = ingredient_counts.sort_by {|k,v| v}.reverse
     most_popular = sorted_ingredients[0..2].map { |ingredient| ingredient.first }
-  
+
   end
 end
