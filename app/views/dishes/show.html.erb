@@ -5,4 +5,5 @@
   <% @dish.ingredients.each do |ingredient| %>
     <li><%= ingredient.name %></li>
   <% end %>
+  <li>Total Calories: <%= @dish.total_calories %></li>
 </ul>
