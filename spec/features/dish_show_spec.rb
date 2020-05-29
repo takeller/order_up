@@ -20,7 +20,7 @@ describe "As a visitor" do
                                                 ingredient_id: cheese.id)
       dish_ingredient2 = DishIngredient.create( dish_id: dish.id,
                                                 ingredient_id: cavatappi.id)
-      dish_ingredient2 = DishIngredient.create( dish_id: dish.id,
+      dish_ingredient3 = DishIngredient.create( dish_id: dish.id,
                                                 ingredient_id: pork.id)
 
 
@@ -50,7 +50,7 @@ describe "As a visitor" do
                                                 ingredient_id: cheese.id)
       dish_ingredient2 = DishIngredient.create( dish_id: dish.id,
                                                 ingredient_id: cavatappi.id)
-      dish_ingredient2 = DishIngredient.create( dish_id: dish.id,
+      dish_ingredient3 = DishIngredient.create( dish_id: dish.id,
                                                 ingredient_id: pork.id)
 
       visit "/dishes/#{dish.id}"
