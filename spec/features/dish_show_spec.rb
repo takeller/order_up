@@ -30,7 +30,6 @@ describe "As a visitor" do
       expect(page).to have_content(cavatappi.name)
       expect(page).to have_content(pork.name)
       expect(page).to have_content(chef.name)
-      save_and_open_page
     end
 
     it "I see the total calorie count of the dish" do
