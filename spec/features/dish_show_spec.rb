@@ -30,6 +30,7 @@ describe "As a visitor" do
       expect(page).to have_content(cavatappi.name)
       expect(page).to have_content(pork.name)
       expect(page).to have_content(chef.name)
+      save_and_open_page
     end
   end
 end
